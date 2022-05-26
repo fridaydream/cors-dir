@@ -5,5 +5,11 @@
       "src": "back-end/index.js",
       "use": "@vercel/node"
     }
+  ],
+  "routes": [
+    {
+      "src": "/api/users",
+      "dest": "back-end/index.js"
+    }
   ]
 }
