@@ -11,7 +11,7 @@
   <script>
     document.getElementById('btn').onclick = request
     function request() {
-      fetch('http://localhost:3000/api/users', {
+      fetch('http://cors-dir.vercel.app/api/users', {
         method: 'POST', // *GET, POST, PUT, DELETE, etc.
         mode: 'cors', // no-cors, *cors, same-origin
         cache: 'no-cache', // *default, no-cache, reload, force-cache, only-if-cached
